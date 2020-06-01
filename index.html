@@ -33,7 +33,7 @@
             </ul>
 
             <span class="navbar-text">
-                <a data-toggle="modal" data-target="#loginModal">
+                <a role="button" id="loginButton">
                 <span class="fa fa-sign-in"></span> Login</a>
             </span>
         
@@ -152,9 +152,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <a role="button" href="#reserve" class="btn btn-sm btn-block bg-warning"
-                    data-toggle="modal" data-target="#reserveModal"
-                    >Reserve Table</a>
+                    <a role="button" id="reserveButton" class="btn btn-sm btn-block bg-warning">Reserve Table</a>
                     </div>
             </div>
         </div>
@@ -339,6 +337,19 @@
                 }
             });
         });
+
+        $(document).ready(function(){
+            $('#loginButton').click(function(){
+                $('#loginModal').modal('show');
+            });
+        });
+
+        $(document).ready(function(){
+            $('#reserveButton').click(function(){
+                $('#reserveModal').modal('show');
+            });
+        });
+
     </script>
 
 </body>
