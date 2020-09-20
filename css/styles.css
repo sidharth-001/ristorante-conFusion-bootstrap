@@ -1,4 +1,4 @@
-row-header {
+.row-header {
   margin: 0px auto;
   padding: 0px 0px; }
 
@@ -9,15 +9,15 @@ row-header {
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #e1edf2;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  background: #9CC3D5;
+  color: #0063B2; }
 
 address {
   font-size: 80%;
@@ -29,7 +29,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #0063B2; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +38,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: #0063B2; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -54,10 +54,13 @@ body {
   z-index: 1; }
 
 .modal-header {
-  background: #512DA8;
+  background: #0063B2;
   color: floralwhite; }
   .modal-header .close {
     color: floralwhite; }
 
 .modal-body {
-  background-color: #D1C4E9; }
+  background-color: #e1edf2; }
+
+#reserveButton{
+  color: floralwhite; }
